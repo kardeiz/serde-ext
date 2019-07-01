@@ -14,14 +14,13 @@ pub struct Foo {
 }
 
 fn main() {
-    // let x = Foo { a: String::from("a") };
 
     println!(
         "{:?}",
         serde_json::from_str::<Foo>(r#"{ 
             "a": 22, 
             "bar": "x", 
-            "url": "http://foofle.com", 
+            "url": "http://google.com", 
             "base64_bytes": "aGVsbG8gd29ybGQ=",
             "non_empty_string": "a"
         }"#)
