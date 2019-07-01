@@ -1,13 +1,13 @@
 [package]
 name = "serde-ext"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jacob Brown <kardeiz@gmail.com>"]
 edition = "2018"
 license = "MIT"
 description = "serde extensions"
 
 [dependencies]
-serde-ext-macros = { version = "0.1.0", path = "serde-ext-macros" }
+serde-ext-macros = { version = "0.1", path = "serde-ext-macros" }
 serde = { version = "1", features = ["derive"] }
 derive_more = "0.15.0"
 base64 = { version = "0.10.1", optional = true }
