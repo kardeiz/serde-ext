@@ -1,0 +1,15 @@
+[package]
+name = "serde-ext-macros"
+version = "0.1.0"
+authors = ["Jacob Brown <kardeiz@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "serde extensions"
+
+[dependencies]
+proc-macro2 = "0.4.30"
+quote = "0.6.12"
+syn = { version = "0.15.39", features = ["full", "extra-traits"] }
+
+[lib]
+proc-macro = true
